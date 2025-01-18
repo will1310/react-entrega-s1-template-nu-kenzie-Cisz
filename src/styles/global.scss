@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --color-primary:#FD377E;
+    --color-primary-2:#E34981;
+    --color-secondary:#03B898;
+    --grey-4:#212529;
+    --grey-3:#868E96;
+    --grey-2:#E9ECEF;
+    --grey-1:#F8F9FA;
+}
+
+body{
+    font-family: Nunito;
+    width: 100%;
+}
+
+
+@media (min-width: 1501px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

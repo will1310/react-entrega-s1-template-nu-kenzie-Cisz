@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    padding: 2rem 0rem;
+    img{
+        padding-left: 1.688rem;
+    }
+}
+
+@media (min-width: 700px) {
+    .header {
+        width: 100%;
+        box-shadow: 0px 4px 32px -12px #00000040;
+        padding: 2rem 13.5rem;
+    }
+}
+
+@media (min-width: 1501px) {
+    .header{
+        padding-left: 25.7rem;
+    }
+}

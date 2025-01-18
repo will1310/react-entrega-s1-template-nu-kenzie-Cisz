@@ -1,0 +1,19 @@
+.financeListContaienr{
+    display: flex;
+    flex-direction: column;
+    width: 91%;
+    margin: 0 auto;
+    gap: 1rem;
+    color: var(--grey-4);
+    margin-bottom: 1rem;
+    h3{
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (min-width: 700px) {
+    .financeListContaienr{
+        width: 35rem;
+        margin: 0;
+    }
+}

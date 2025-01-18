@@ -1,0 +1,77 @@
+.financeContainer{
+    width: 91%;
+    margin: 0 auto;
+    border: 2px solid hwb(210 13% 84% / 0.200); 
+    border-radius: 2px;
+    height: 434px;
+    form{
+        padding: 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+
+        .divDescricao{
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+            label{
+                margin-bottom: 0.8rem;
+            }
+            input{
+                border-style: none;
+                padding: 0.5rem 0;
+                outline-color: var(--grey-4);
+            }
+            ::placeholder {
+                color: var(--grey-3);
+                padding: 0.86rem;
+            }
+            span{
+                color: var(--grey-3);
+            }
+        }
+
+        .divValor{
+            border: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+            input{
+                border-style: none;
+                padding: 0.5rem 0; 
+                outline-color: var(--grey-4);
+            }
+            ::placeholder {
+                color: var(--grey-3);
+                padding: 0.86rem;
+            }
+
+            select{
+                border: 1px solid var(--grey-1);
+                padding: 0.5rem 0.75rem;
+                outline-color: var(--grey-4);
+
+            }
+
+        }
+        .divButton{
+            button{
+                padding: 1rem;
+                background-color: var(--color-primary);
+                border-style: none;
+                border-radius: 8px;
+                color: var(--grey-1);
+                width: 100%;
+            }
+        }
+    }
+    
+}
+
+@media (min-width: 700px) {
+    .financeContainer{
+        width: 22.188rem;
+        height: 27.125rem;
+        margin: 0;
+    }
+}
